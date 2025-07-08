@@ -396,7 +396,7 @@ if not st.session_state.get('initialized', False):
             st.error(f"Error: {e}")
             st.stop()
 
-st.warning("AI Assistant with verified doctor recommendations for health concerns.")
+st.warning("AI Assistant with mock doctor recommendations for health concerns.")
 
 chat_placeholder = st.empty()
 
